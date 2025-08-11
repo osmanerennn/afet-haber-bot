@@ -2,31 +2,34 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Afet ve Haber Takip Botu</title>
-  <!-- Sayfanın görünümünü düzenleyen stil dosyası -->
+  <title>Afet ve Deprem Haritası</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="style.css" />
+  <!-- Google AdSense -->
+  <script data-ad-client="ca-pub-XXXXXXXXXXXX" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body>
-  <header>
-    <!-- Başlık ve açıklama -->
-    <h1>🌍 Afet ve Haber Takip Botu</h1>
-    <p>Son dakika haberleri, afet ve felaket uyarıları</p>
-  </header>
 
-  <main>
-    <section id="haberler">
-      <h2>Güncel Haberler</h2>
-      <!-- Haberlerin listeleneceği alan -->
-      <div id="haber-listesi">Yükleniyor...</div>
-    </section>
-  </main>
+  <h1>Türkiye Fay Hatları, Depremler ve Afetler</h1>
 
-  <footer>
-    <p>© 2025 Afet Takip Botu | Tüm hakları saklıdır.</p>
-  </footer>
+  <!-- Harita -->
+  <div id="map"></div>
 
-  <!-- Sayfanın işlevselliğini sağlayan JavaScript dosyası -->
+  <!-- Reklam Alanı -->
+  <ins class="adsbygoogle"
+    style="display:block; text-align:center;"
+    data-ad-layout="in-article"
+    data-ad-format="fluid"
+    data-ad-client="ca-pub-XXXXXXXXXXXX"
+    data-ad-slot="YYYYYYYYYY"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="script.js"></script>
+
 </body>
 </html>
