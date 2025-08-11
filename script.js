@@ -5,7 +5,7 @@ async function haberleriYukle() {
 
   try {
     // Haber API’si adresi (burada örnek API kullanıldı)
-    const apiURL = "https://newsapi.org/v2/top-headlines?country=tr&apiKey=demo";
+    const apiURL = "const apiURL = "https://newsapi.org/v2/top-headlines?country=tr&apiKey=70604d607009430a83bc49f57e1331d8";
 
     // API’den haberleri çekiyoruz
     const res = await fetch(apiURL);
