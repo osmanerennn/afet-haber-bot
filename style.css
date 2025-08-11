@@ -1,46 +1,15 @@
-/* Genel sayfa yazı tipi ve arka plan rengi */
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f4f4f4;
-}
-
-/* Üst kısım başlık bölümü, kırmızı arka plan ve beyaz yazı */
-header {
-  background: #d32f2f;
-  color: white;
-  padding: 15px;
   text-align: center;
 }
 
-/* Başlık h1'nin üstündeki boşlukları kaldır */
 h1 {
-  margin: 0;
+  margin: 10px 0;
 }
 
-/* Ana içerik kısmında etraf boşluk */
-main {
-  padding: 20px;
-}
-
-/* Haberlerin listelendiği bölümde öğeler arası boşluk */
-#haber-listesi {
-  display: grid;
-  gap: 15px;
-}
-
-/* Her bir haber kutusunun görünümü: beyaz kutu, gölge, yuvarlak köşeler */
-.haber {
-  background: white;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-
-/* Alt kısımdaki telif ve footer stili */
-footer {
-  text-align: center;
-  padding: 10px;
-  background: #222;
-  color: white;
+#map {
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 20px;
 }
